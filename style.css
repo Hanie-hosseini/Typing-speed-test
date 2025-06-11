@@ -28,7 +28,7 @@ body.dark {
   align-items: center;
   gap: 1rem;
   transition: background 0.3s;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 
 body.dark .container {
@@ -171,4 +171,21 @@ input:checked+.slider {
 
 input:checked+.slider:before {
   transform: translateX(20px);
+}
+
+.title-i {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  padding: .6rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  font-size: 1.1rem;
+  font-weight: bold;
+  max-width: 600px;
+  margin-top: 2rem;
+  text-align: center;
+
 }
